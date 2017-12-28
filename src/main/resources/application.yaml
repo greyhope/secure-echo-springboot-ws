@@ -1,0 +1,7 @@
+server:
+  port: 9443
+  ssl:
+    key-store: classpath:server-keystore.jks
+    key-store-password: force1
+    key-alias: grey-keypair
+    key-password: force1
